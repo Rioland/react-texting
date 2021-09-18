@@ -1,0 +1,41 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+.container{
+  height: auto;
+  min-height: 50px;
+  background-color: whitesmoke;
+}
+.container .ul{
+  display: flex;
+  list-style-type: none;
+  padding-left: 24px;
+  padding-top: 10px;
+}
+.container .ul li{
+  margin-left: 10px;
+  height: 20px;
+  padding:5px;
+  
+}
+.container .ul li:hover{
+  border-bottom: 0.5px solid black;
+}
+.container .ul .logo{
+  margin-right: 50px;
+  height: 30px;
+  font-size: large;
+  font-weight: bold;
+  width: 100px;
+  border: none;
+  
+}
+
+
+a{
+  text-decoration: none;
+  text-transform: none;
+  text-decoration-color: black;
+  color: black;
+}
