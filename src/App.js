@@ -1,7 +1,7 @@
 import React from "react";
 import "./style.css";
-import Header from "./componet/Header"
-// import HomeFace from "./componet/Face"
+
+import Sidebar from "./componet/Sidebar"
 
 // function Navlogo(){
 //   return 
@@ -12,7 +12,7 @@ import Header from "./componet/Header"
  function App() {
   return (
     <div>
-    <Header/>
+    <Sidebar/>
     </div>
   );
 }
